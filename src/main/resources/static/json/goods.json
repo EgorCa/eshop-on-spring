@@ -1,0 +1,22 @@
+{
+  "11": {
+    "name": "Engine",
+    "cost": 150000,
+    "img": "images/2JZ.jpg"
+  },
+  "22": {
+    "name": "GearBox",
+    "cost": 200000,
+    "img": "images/samsonas.jpg"
+  },
+  "33": {
+    "name": "Suspension",
+    "cost": 100000,
+    "img": "images/coilovers.jpg"
+  },
+  "44": {
+    "name": "Wheels",
+    "cost": 70000,
+    "img": "images/wheels.jpg"
+  }
+}

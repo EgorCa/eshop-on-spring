@@ -1,0 +1,270 @@
+.main_div
+            {
+                position: relative;
+                padding: 0px;
+                margin: 0 auto;
+                overflow: hidden;
+                object-fit: cover;
+                width: 92%;
+                height: 1370px;
+                border-radius: 10px;
+                background-image: url("../images/f40.jpg");
+                background-repeat: no-repeat;
+                background-size:cover;
+            }
+
+            .Zagolovok
+            {
+                padding-top: 1%;
+                padding-bottom: 2%;
+                width: 100%;
+                height: 5%;
+                border-radius: 5px;
+            }
+
+            .for_h1
+            {
+            float: left;
+            padding-top: 1%;
+            padding-bottom: 2%;
+            width: 60%;
+            height: 98%;
+            border-radius: 5px;
+            }
+
+            .container
+            {
+            float: right;
+            padding-top: 1%;
+            padding-bottom: 2%;
+            width: 40%;
+            height: 98%;
+            border-radius: 5px;
+            }
+
+            select
+            {
+            margin-top: 15px;
+            margin-right: 20px;
+            float: right;
+            border-radius: 5px;
+            width:200px;
+            height:50px;
+            }
+            .for_parts
+            {
+                margin-top: 5px;
+                margin-left: 10px;
+                width: 470px;
+                height: 91%;
+                border-radius: 5px;
+                border: 1px solid black;
+                box-shadow: -10px 10px 20px -20px rgba(0.48, 0.5, 0.5, 0.78);
+            }
+
+            .parts
+            {
+                margin-left: 10px;
+                margin-bottom: 10px;
+                padding-left: 1%;
+                padding-right: 1%;
+                padding-bottom: 1%;
+                width: 470px;
+                height: 285px;
+                border-radius: 5px;
+                border: 1px solid black;
+                box-shadow: -40px 10px 20px -20px rgba(0.78, 0.5, 0.5, 0.78);
+            }
+
+            .for_img
+            {
+                float: left;
+                width: 50%;
+                height: 68%;
+            }
+
+            .button_div
+            {
+                margin-top: 6%;
+                margin-right: 2%;
+                float:right;
+                width: 100px;
+                height: 40px;
+                border-radius: 5px;
+                border: 1px solid black;
+                box-shadow: -3px 2px 2px 3px rgba(0.2, 0.1, 0.1, 0.2);
+            }
+
+            .box
+            {
+                float: right;
+                margin-right: 1%;
+                width: 315px;
+                height: 458px;
+                border-radius: 5px;
+                box-shadow: -1px 1px 1px 2px rgba(0.03, 0.03, 0.1, 0.1);
+            }
+
+            #for_ls
+            {
+                float:none;
+                margin: 1%;
+                width: 308px;
+                border-radius: 2px;
+                box-shadow: 4px 5px 6px 5px rgba(0.1, 0.3, 0.8, 0.1);
+                height: 140px;
+            }
+
+            .for_ls_parts
+            {
+                margin: 1%;
+                padding-left:20px;
+                width: 308px;
+                height: 35px;
+                box-shadow: 4px 5px 6px 5px rgba(0.1, 0.3, 0.8, 0.1);
+            }
+            .box a
+            {
+                color: black;
+                display: block;
+                text-decoration: none;
+            }
+
+            .box a:hover
+            {
+                color: #a160a1;
+            }
+
+            #for_parts2
+            {
+                margin-left: 2%;
+                border-radius: 5px;
+                border: 1px solid grey;
+                width: 96%;
+                height: 80%;
+            }
+
+            .parts2
+            {
+                margin-left: 2%;
+                margin-right: 2%;
+                margin-top: 2%;
+                padding-top: 20px;
+                border-radius: 5px;
+                border: 1px solid grey;
+                width: 96%;
+                height: 200px;
+            }
+
+            .button_div_right
+            {
+                float:right;
+                margin-top: 2%;
+                margin-right: 2%;
+                width: 150px;
+                height: 80px;
+                border-radius: 5px;
+                border: 1px solid black;
+                box-shadow: -3px 2px 2px 3px rgba(0.2, 0.1, 0.1, 0.2);
+            }
+            .button_div_left
+            {
+                float:left;
+                margin-top: 2%;
+                margin-left: 2%;
+                width: 150px;
+                height: 80px;
+                border-radius: 5px;
+                border: 1px solid black;
+                box-shadow: -3px 2px 2px 3px rgba(0.2, 0.1, 0.1, 0.2);
+            }
+
+            .button_div_left a
+            {
+                color: black;
+                display: block;
+                text-decoration: none;
+            }
+
+            .button_div_left a:hover
+            {
+                color: #a160a1;
+            }
+
+            .name_div
+            {
+            float:left;
+            width: 80px;
+            height: 55px;
+            margin: 5px;
+            padding-top: 50px;
+            margin-left: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+            }
+
+            .del_div
+            {
+            float:left;
+            width: 80px;
+            height: 55px;
+            margin: 5px;
+            padding-top: 50px;
+            margin-left: 15px;
+            margin-top: 20px;
+            border-radius: 5px;
+            }
+
+            .delete
+            {
+            width: 80px;
+            height: 50px;
+            border-radius: 5px;
+            }
+
+            .img_div
+            {
+             float: left;
+             width: 300px;
+             height: 180px;
+             margin: 5px;
+             border-radius: 5px;
+            }
+
+            .for_plus_and_minus
+            {
+            float: right;
+            width: 180px;
+            height: 50px;
+            margin: 5px;
+            padding-top:35px;
+            margin-top: 20px;
+            margin-left: 15px;
+            border-radius: 10px;
+            }
+
+            .minus
+            {
+                margin: 10px;
+                width: 50px;
+                height: 50px;
+            }
+
+            .plus
+            {
+                margin: 10px;
+                width: 50px;
+                height: 50px;
+            }
+
+            .cost_div
+            {
+            float: right;
+            width: 80px;
+            height: 50px;
+            margin: 5px;
+            margin-top: 22px;
+            padding-top: 35px;
+            margin-right: 40px;
+            border-radius: 5px;
+            }
