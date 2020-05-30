@@ -1,7 +1,10 @@
 package com.example.eshop.Controllers;
+import com.example.eshop.Models.Orders;
+import com.example.eshop.Repositories.OrdersRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
@@ -18,5 +21,11 @@ public class MainController {
         model.addAttribute("title", "Корзина");
         return "box";
     }
+    //Объект на основе нашего класса
+    @PostMapping("/box")
+    public String addtoDB(@RequestParam String name, @RequestParam int cost, Model model){
+        Orders order = new Orders(name, cost);
 
+        return "";
+    }
 }
