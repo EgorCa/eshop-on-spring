@@ -38,6 +38,7 @@ public class Orders {
     public void setCost(int cost) {
         this.cost = cost;
     }
+
     //Конструктор без параметров
     public Orders() {
     }

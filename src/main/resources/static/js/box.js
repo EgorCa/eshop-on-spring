@@ -11,7 +11,7 @@ $.getJSON(src="json/goods.json",function(data){
         for (var i in box){
                 out+='<div class="parts2">';
 
-                out += '<div class ="name_div" type="text" name="name">';
+                out += '<div class ="name_div">';
                 out += '<h2>'+'<i>'+goods[i].name+'</h2>'+'</i>';
                 out+= '</div>';
 
@@ -22,7 +22,7 @@ $.getJSON(src="json/goods.json",function(data){
 
                 out += '<img src="'+goods[i].img+'">';
 
-                out += '<div type="text" name="cost" class ="cost_div">';
+                out += '<div class ="cost_div">';
                 out += '<h2>'+'<i>'+box[i]*goods[i].cost+'</i>'+'</h2>';
                 out += '</div>';
 

@@ -28,7 +28,7 @@
         <h1 align="center"><i>Выбранные товары :</i></h1>
     </div>
 
-    <div id = "for_parts2" action="/box/" method="post">
+    <div id = "for_parts2">
     </div>
 
     <div class="button_div_left">
@@ -36,7 +36,9 @@
     </div>
 
     <div class="button_div_right">
-        <button type = "submit" class="order">Оформить заказ</button>
+        <form action="/box" method="post">
+            <button type = "submit" class="order">Оформить заказ</button>
+        </form>
     </div>
 </div>
 
